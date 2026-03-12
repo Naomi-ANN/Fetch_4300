@@ -14,33 +14,33 @@ pc_mux,
 next_pc,
 instr_data;
 
-mux m0(
+mux m0( //mux.v
 .y(),
 .a_true(),
 .b_false(),
 .sel()
 );
 
-pc pc0(
+pc pc0( //pc.v
 .pc_in(),
 .pc_out()
 );
 
-incrementer in0(
-.clk(),
+incrementer in0( //increment.v
+.clk(), 
 .rst(),
 .pcin(),
 .pcout()
 );
 
-instrMem inMem0(
+instrMem inMem0( //instrMem.v
 .clk(),
 .rst(),
 .addr(),
 .data()
 );
 
-ifIdLatch ifIdLatch0(
+ifIdLatch ifIdLatch0( //ifIdLatch.v
 .clk(),
 .rst(),
 .pc_in(),
