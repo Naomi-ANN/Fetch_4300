@@ -20,4 +20,7 @@ latch obtains:
 - adder output
 - instr mem output
 - clk
+
+output of latch is output of the Fetch.v
+
 */
