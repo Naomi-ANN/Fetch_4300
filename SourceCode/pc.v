@@ -5,6 +5,7 @@ module pc(
     input [31:0] pc_in,
     output [31:0] pc_out
 );
-//pc job is just to hold the input value 
+
+assign pc_out = pc_in;
 
 endmodule
