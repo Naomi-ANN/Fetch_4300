@@ -18,7 +18,13 @@ initial begin
     mem[7] = 32'h70000077;
     mem[8] = 32'h80000088;
     mem[9] = 32'h90000099;
-    
+end
+
+always @(posedge clk)begin
+    if(!rst)
+    mem <= 32'h00000000;
+    else
+    data <= mem[addr]
 end
 
 endmodule
