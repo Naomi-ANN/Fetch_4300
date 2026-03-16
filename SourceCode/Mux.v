@@ -10,10 +10,10 @@ module mux(
 //ok basic mux format
 always @(*) begin
     if (sel)begin
-    y = a_true
+    y = a_true;
             end
 else begin
-    y = b_false
+    y = b_false;
     end
 end
 
