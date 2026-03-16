@@ -6,7 +6,7 @@
 - [Images Folder](https://github.com/Naomi-ANN/Fetch_4300/tree/main/Images)
 
 ### Image of waveform:
-[Image not found?!](https://github.com/Naomi-ANN/Fetch_4300/edit/main/Readme.md)
+![Image not found?!](https://github.com/Naomi-ANN/Fetch_4300/blob/main/Images/Screenshot%202026-03-15%20225601.png)
 
 Goal:
 Finish making the Fetch 
